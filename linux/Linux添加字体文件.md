@@ -1,0 +1,12 @@
+**步骤：**
+
+1. 将字体文件（*.ttf）复制到`/usr/share/fonts/`目录下
+
+2. 建立字体缓存
+
+   `mkfontscale`（如果提示 `mkfontscale: command not found`，需自行安装mkfontscale `# yum install mkfontscale` ）
+
+   `mkfontdir`
+
+   `fc-cache -fv` （如果提示 `fc-cache: command not found`，则需要安装fontconfig`# yum install fontconfig`）
+
