@@ -95,10 +95,10 @@ All done!
    Database changed
    ```
 
-   新增权限用户：`GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456';`这里的123456为你给新增权限用户设置的密码，%代表所有主机，也可以具体到你的主机ip地址
+   新增权限用户：`GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;`这里的123456为你给新增权限用户设置的密码，%代表所有主机，也可以具体到你的主机ip地址
    
    ```linux
-   mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456';
+   mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
    Query OK, 0 rows affected, 1 warning (0.00 sec)
    ```
    
