@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: "CloudFoundry"
+categories: CloudFoundry
 ---
 
 参考文档：
