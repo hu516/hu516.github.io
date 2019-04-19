@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Ubuntu下niginx+php-fpm部署php应用服务"
+categories: Linux
+---
+
 1. 安装php-fpm，php-mysql
 
    `apt install php-fpm php-mysql`
@@ -64,13 +70,13 @@
 5. 测试
 
    在`/var/www/html/`目录下创建phpinfo.php文件，写入内容
-   
+
    ```html
-<?php
+   <?php
        phpinfo();
    ?>
    ```
-   
+
    访问http://ip/phpinfo.php 如果出现php安装信息，那么就成功了。
-   
+
    
