@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Cloud Foundry
+categories: "CloudFoundry"
 ---
 
 参考文档：
