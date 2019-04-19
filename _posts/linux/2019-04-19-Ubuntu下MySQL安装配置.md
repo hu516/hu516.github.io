@@ -1,3 +1,8 @@
+---
+layout: post
+categories: Linux
+---
+
 # 1. 安装MySQL
 
    `apt install mysql-server`

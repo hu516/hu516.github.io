@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "Ubuntu下niginx+php-fpm部署php应用服务"
 categories: Linux
 ---
 
