@@ -58,9 +58,7 @@ categories: Linux
 
    
 
-   注意确认`fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;`中`php7.2-fpm.sock`路径or文件名是否正确；
-
-   ![1555662956402](/_posts/linux/2019-04-19-1555662956402.png)
+   注意确认`fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;`中`php7.2-fpm.sock`路径or文件名是否正确；   ![1555662956402](./2019-04-19-1555662956402.png)
 
 4. 应用nginx配置
 
