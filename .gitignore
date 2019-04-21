@@ -1,4 +1,6 @@
 _site
 .sass-cache
-.c9
-Gemfile.lock
+.jekyll-metadata
+.vscode
+.idea
+.DS_Store
