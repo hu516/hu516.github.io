@@ -13,7 +13,7 @@ categories: Linux
 
    配置过程如下：
 
-```liunx
+```ssh
 Securing the MySQL server deployment.
 
 Connecting to MySQL using a blank password.
