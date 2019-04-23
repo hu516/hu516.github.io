@@ -1,0 +1,15 @@
+
+```
+nohup java -Xms2048m -Xmx2048m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/javaapp/dump -Dime.auth.code=false -Dspring.application.index=8051 -Dlogging.level.root=DEBUG -jar javaappname-1.0.0.jar >/javaapp/logs/log-javaappname.log 2>1 &amp;
+```
+
+主要参数说明：
+
+| 参数                       | 说明                                                         |
+| :------------------------- | ------------------------------------------------------------ |
+| -Xms                       | 设置JVM初始堆内存，此值可以设置与-Xmx相同，以避免每次垃圾回收完成后JVM重新分配内存 |
+| -Xmx                       | 设置JVM最大堆内存                                            |
+| -Dspring.application.index | 应用端口                                                     |
+| -jar                       | jar包路径                                                    |
+| file 2>1 \&amp;            | file为日志文件路径，约定设置为log-应用名.log                 |
+
