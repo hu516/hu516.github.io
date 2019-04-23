@@ -1,6 +1,6 @@
 ---
 categories: Linux
-tags:php nginx
+tags: php nginx
 ---
 
 1. 安装php-fpm，php-mysql

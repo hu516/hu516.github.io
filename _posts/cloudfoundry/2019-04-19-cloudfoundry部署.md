@@ -1,6 +1,6 @@
 ---
 categories: CloudFoundry
-tags:Bosh
+tags: Bosh
 ---
 
 参考文档：
