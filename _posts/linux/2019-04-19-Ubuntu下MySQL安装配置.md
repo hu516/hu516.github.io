@@ -1,6 +1,6 @@
 ---
-layout: post
 categories: Linux
+tags: Ubuntu Mysql
 ---
 
 # 1. 安装MySQL

@@ -1,3 +1,8 @@
+---
+categories: Linux
+tags: Ubuntu
+---
+
 1. 在桌面空白处点击右键菜单"打开终端" ；
 2. 输入命令`sudo passwd root`，按照提示为root用户设置密码；
 3. 输入命令`su`，输入root用户密码 ；
