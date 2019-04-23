@@ -1,6 +1,6 @@
 ---
-layout: post
 categories: Linux
+tags:php nginx
 ---
 
 1. 安装php-fpm，php-mysql

@@ -1,6 +1,6 @@
 ---
-layout: post
 categories: CloudFoundry
+tags:Bosh
 ---
 
 参考文档：
